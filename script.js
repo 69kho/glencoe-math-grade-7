@@ -12,7 +12,7 @@ form.addEventListener('submit', e => {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer YOUR_API_KEY'
+      'Authorization': 'Bearer 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'
     }
   })
   .then(response => response.json())
